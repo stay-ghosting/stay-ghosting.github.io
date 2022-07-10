@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(33,37,41);
+  color: #ddd;
+}
+h1, h2, h3, p{
+  word-wrap:break-word;
+  margin: 0;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.main{
+  width: 50%;
+  margin: auto;
+  background-color: rgb(37,41,49);
+  padding: 100px 50px 50px 50px;
+}
+.btn-bookmark{
+  display: inline;
+  padding: 18px;
+  background-image: url("assets/icons/bookmarks.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-bookmark:active{
+  background-image: url("assets/icons/bookmarks-fill.svg");
+}
+
+.house-info-header-pice{
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge{
+  margin: 0px 10px;
+}
+
+.house-info{
+  padding: 0 20px;
+  /* width:50%; */
+  margin: 20px auto 50px auto;
+}
+
+
+.nav{
+  padding-bottom: 0px;
+}
+.logo-container{
+  margin-right: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo{
+  color: white;
+  font-weight:900;
+  font-size: larger;
+  /* border-right: 2px solid #555; */
+}
+
+.logo:hover{
+  color: #ddd;
+}
+
+.carousel-main{
+  display:flex;
+  justify-content: space-between;
+}
+
+.carousel{
+
+  /* width:50%; */
+  padding: 0px 0px 50px 0;
+  margin: auto;
+}
+
+.carousel-inner{
+  margin: auto;
+  width: 86%;
+  height: 90%;
+}
+
+.carousel-caption{
+  position:static;
+  order:5;
+}
+
+.carousel-buttons{
+  width:100%;
+}
+
+.carousel-item img{
+  height: 300px;
+  object-fit: cover;
+  object-position: 0px, 150px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width:2rem;
+}
+
+.gmap iframe{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
